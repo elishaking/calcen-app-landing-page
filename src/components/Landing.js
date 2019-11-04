@@ -32,7 +32,7 @@ export default class Landing extends Component {
           <div className="left">
             <h1>Complex Arithmetic made Easy</h1>
             <p>CalcEn is a complex number calculator that handles arithmetic of complex expressions, matrices and functions</p>
-            <GooglePlayIcon />
+            <div><GooglePlayIcon /></div>
           </div>
 
           <div className="right">

@@ -96,4 +96,42 @@
       }
     }
   }
+
+  @media (max-width: 1000px) {
+    background: white;
+    height: fit-content;
+
+    nav {
+      ul {
+        display: none;
+      }
+    }
+
+    .content {
+      display: block;
+
+      .left {
+        width: 100%;
+        margin-bottom: 10vh;
+      }
+
+      .right {
+        width: 100%;
+
+        div {
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 760px) {
+    .content {
+      text-align: center;
+
+      .left svg {
+        height: 8vh;
+      }
+    }
+  }
 }
