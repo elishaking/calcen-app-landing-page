@@ -34,7 +34,7 @@ export default class Landing extends Component {
 
             <p>CalcEn is a complex number calculator that handles arithmetic of complex expressions, matrices and functions</p>
 
-            <div>
+            <div id="g-play">
               <a href="https://play.google.com/store/apps/details?id=com.apps.king.complex_cal_cen" rel="noopener noreferrer" target="_blank">
                 <GooglePlayIcon />
               </a>
