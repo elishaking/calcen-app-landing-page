@@ -4,4 +4,44 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 10vw;
+
+    h1{
+      display: flex;
+      align-items: center;
+      color:#005E8D;
+
+      svg{
+        margin-right: 1em;
+      }
+    }
+
+    ul{
+      display: flex;
+      list-style: none;
+      
+      li{
+        margin-right: 2em;
+      }
+
+      li:last-child{
+        margin: 0;
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+        transition: 0.3s ease-in-out;
+      }
+
+      a:hover{
+        color: #78D2FF;
+      }
+    }
+  }
 }
