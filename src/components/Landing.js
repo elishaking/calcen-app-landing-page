@@ -36,7 +36,9 @@ export default class Landing extends Component {
           </div>
 
           <div className="right">
-            <img src="img/phone.png" alt="Phone"/>
+            <div>
+              <img src="img/phone.png" alt="Phone" />
+            </div>
           </div>
         </div>
       </div>
